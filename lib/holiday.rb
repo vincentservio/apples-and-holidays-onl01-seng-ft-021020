@@ -75,7 +75,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.map do |a, b| 
     b.map do | c, d | 
-      if d.include? ("BBQ")
+      if b.include? ("BBQ")
         event 
       end 
    end 
